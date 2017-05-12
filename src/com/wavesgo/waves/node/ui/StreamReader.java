@@ -1,6 +1,6 @@
 package com.wavesgo.waves.node.ui;
 
-import com.wavesgo.waves.node.ui.com.wavesgo.waves.node.ui.panels.DebugPanel;
+import com.wavesgo.waves.node.ui.panels.DebugPanel;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

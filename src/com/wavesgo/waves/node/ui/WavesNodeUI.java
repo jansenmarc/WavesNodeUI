@@ -1,6 +1,7 @@
 package com.wavesgo.waves.node.ui;
 
 import com.wavesgo.waves.node.ui.com.wavesgo.waves.node.ui.panels.*;
+import com.wavesgo.waves.node.ui.panels.*;
 
 import javax.swing.*;
 import java.awt.*;

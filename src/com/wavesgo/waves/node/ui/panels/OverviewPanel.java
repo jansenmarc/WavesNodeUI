@@ -1,4 +1,4 @@
-package com.wavesgo.waves.node.ui.com.wavesgo.waves.node.ui.panels;
+package com.wavesgo.waves.node.ui.panels;
 
 import com.google.gson.JsonParser;
 import com.wavesgo.waves.node.ui.Callback;
