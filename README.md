@@ -11,3 +11,10 @@ After the successful build process, the tool could be started with:
 ```sh
 java -cp gson-2.8.0.jar -jar WavesNodeUI.jar
 ```
+# Starting the release
+In order to start the tool from the provided release, just download the latest release,
+unzip it and start the tool by executing:
+```sh
+java -cp $CLASSPATH:gson-2.8.0.jar:WavesNodeUI.jar com.wavesgo.waves.node.ui.WavesNodeUI
+```
+in the directory in which you unzipped the release!

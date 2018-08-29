@@ -17,7 +17,7 @@ public class MainPanel extends JPanel {
 
     public MainPanel(NetworkPanel networkPanel) {
         String[] debugLevels = { "DEBUG", "INFO", "WARN", "ERROR" };
-        String[] blockchainTypes = { "MAINNET", "TESTNET", "DEVNET" };
+        String[] blockchainTypes = { "MAINNET", "TESTNET" };
 
         this.networkPanel = networkPanel;
 
@@ -35,7 +35,17 @@ public class MainPanel extends JPanel {
                 if (network.equals("MAINNET")) {
                     checkpointPrivateKey.setText("7EXnkmJyz1gPfLJwytThcwGwpyfjzFXC3hxBhvVK4EQP");
 
-                    networkPanel.setKnownPeers("\"138.201.152.166:6868\", \"138.201.152.165:6868\", \"138.201.152.164:6868\", \"138.201.152.163:6868\", \"34.192.116.209:6868\", \"52.8.147.91:6868\", \"52.192.108.188:6868\", \"52.62.212.53:6868\", \"52.67.63.123:6868\"");
+                    //networkPanel.setKnownPeers("\"138.201.152.166:6868\", \"138.201.152.165:6868\", \"138.201.152.164:6868\", \"138.201.152.163:6868\", \"34.192.116.209:6868\", \"52.8.147.91:6868\", \"52.192.108.188:6868\", \"52.62.212.53:6868\", \"52.67.63.123:6868\"");
+                    networkPanel.setKnownPeers("\"13.228.86.201:6868\"," +
+                            "      \"13.229.0.149:6868\"," +
+                            "      \"18.195.170.147:6868\"," +
+                            "      \"34.253.153.4:6868\"," +
+                            "      \"35.156.19.4:6868\"," +
+                            "      \"52.50.69.247:6868\"," +
+                            "      \"52.52.46.76:6868\"," +
+                            "      \"52.57.147.71:6868\"," +
+                            "      \"52.214.55.18:6868\"," +
+                            "      \"54.176.190.226:6868\"");
                 } else if (network.equals("TESTNET")) {
                     checkpointPrivateKey.setText("");
 
